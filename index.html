@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihailo Bogdanović</title>
+    <style>
+         @font-face { font-family: "pixel"; src: url('font.ttf'); } 
+        body {
+            font-family: 'pixel';
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            background: url('background.png') no-repeat center center/cover;
+            color: #fff;
+        }
+        header {
+            margin-top: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header h1 {
+            font-size: 3.5em;
+        }
+        .construction {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .construction p {
+            margin: 0;
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+        .construction a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #FFD700;
+            font-size: 1em;
+            transition: color 0.3s ease;
+        }
+        .construction a:hover {
+            color: #fff;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            text-align: center;
+            /* display: block; */
+            margin: 10px 0;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #FFD700;
+        }
+        h2 {
+            font-size: 2.5em;
+        }
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mihailo Bogdanović</h1>
+    </header>
+    <div>
+        <script>
+            function sendEmail() 
+            {
+                window.location = "mailto:xyz@yourapplicationdomain.com";
+            }
+            </script>
+            <a onclick="sendEmail();">mihailo.bogdanovic1@gmail.com</a>
+        <br/>
+        <a href="https://www.linkedin.com/in/mihailobogdanovic/">LinkedIn</a>
+        <a href="https://github.com/crknuchu">Github</a>
+        <a href="MihailoBogdanovic_CV.pdf" download>CV</a>
+    </div>
+        
+    <h2>Games</h2>
+    <nav>
+        <div class="construction">
+            <p>Over Construction</p>
+            <a href="https://crknuchu.itch.io/over-constructed">itch</a>
+            <a href="https://github.com/crknuchu/over-construction">github</a>
+        </div>
+        <div class="construction">
+            <p>Text O'Driver</p>
+            <a href="https://crknuchu.itch.io/text-o-driver">itch</a>
+            <a href="https://github.com/surrealisticdevelopers/gamejam2024---Copy">github</a>
+        </div>
+        <div class="construction">
+            <p>SeedyTale</p>
+            <a href="https://crknuchu.itch.io/seedytale">itch</a>
+            <a href="https://github.com/crknuchu/gmtk2024">github</a>
+        </div>
+        <div class="construction">
+            <p>Bad Week</p>
+            <a href="https://bo-gi.itch.io/bad-week">itch</a>
+            <a href="https://github.com/senseibobo/bad-week">github</a>
+        </div>
+    </nav>
+</body>
+</html>
