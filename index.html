@@ -29,14 +29,14 @@
             font-size: 3.5em;
         }
         .construction {
-            display: flex;
+            /* display: flex; */
             align-items: center;
-            margin-left: 20px;
+            /* margin-left: 20px; */
         }
         .construction p {
             margin: 0;
             align-items: center;
-            margin-right: 10px;
+            /* margin-right: 10px; */
             font-size: 1.5em;
         }
         .construction a {
@@ -45,33 +45,33 @@
             color: #FFD700;
             font-size: 1em;
             transition: color 0.3s ease;
-            align-items: center;
+            /* align-items: center; */
         }
         .construction a:hover {
             color: #fff;
-            align-items: center;
+            /* align-items: center; */
         }
         nav {
+            /* display: inline-block; */
+            /* list-style-type: none; */
             text-align: center;
-            margin-top: 20px;
-            align-items: center;
+            /* align-items: center; */
         }
         nav a {
+            display: inline-block;
             text-align: center;
-            /* display: block; */
             margin: 10px 0;
-            /* text-decoration: none; */
             color: #fff;
             font-size: 1.2em;
             transition: color 0.3s ease;
-            align-items: center;
+            /* align-items: center; */
         }
         nav a:hover {
             color: #FFD700;
-            /* align-items: center; */
         }
         h2 {
             font-size: 2.5em;
+            margin-bottom: 5px;
         }
         div {
             text-align: center;
@@ -87,7 +87,7 @@
         <script>
             function sendEmail() 
             {
-                window.location = "mailto:xyz@yourapplicationdomain.com";
+                window.location = "mailto:mihailo.bogdanovic1@gmail.com";
             }
             </script>
             <a onclick="sendEmail();">mihailo.bogdanovic1@gmail.com</a>
@@ -99,30 +99,32 @@
         
     <h2>My Games</h2>
     <nav>
-        <div class="construction">
-            <p>Over Construction</p>
-            <a href="https://crknuchu.itch.io/over-constructed">itch</a>
-            <a href="https://github.com/crknuchu/over-construction">github</a>
-        </div>
-        <div class="construction">
-            <p>Text O'Driver</p>
-            <a href="https://crknuchu.itch.io/text-o-driver">itch</a>
-            <a href="https://github.com/surrealisticdevelopers/gamejam2024---Copy">github</a>
-        </div>
-        <div class="construction">
-            <p>SeedyTale</p>
-            <a href="https://crknuchu.itch.io/seedytale">itch</a>
-            <a href="https://github.com/crknuchu/gmtk2024">github</a>
-        </div>
-        <div class="construction">
-            <p>Bad Week</p>
-            <a href="https://bo-gi.itch.io/bad-week">itch</a>
-            <a href="https://github.com/senseibobo/bad-week">github</a>
-        </div>
-        <div class="construction">
-            <p>Yu-Gi-Oh! Clone</p>
-            <a href="https://github.com/crknuchu/yugioh-clone">github</a>
-        </div>
+        <ul>
+            <div class="construction">
+                <p style="display:inline">Over Construction</p>
+                <a href="https://crknuchu.itch.io/over-constructed">itch</a>
+                <a href="https://github.com/crknuchu/over-construction">github</a>
+            </div>
+            <div class="construction">
+                <p style="display:inline">Text O'Driver</p>
+                <a href="https://crknuchu.itch.io/text-o-driver">itch</a>
+                <a href="https://github.com/surrealisticdevelopers/gamejam2024---Copy">github</a>
+            </div>
+            <div class="construction">
+                <p style="display:inline">SeedyTale</p>
+                <a href="https://crknuchu.itch.io/seedytale">itch</a>
+                <a href="https://github.com/crknuchu/gmtk2024">github</a>
+            </div>
+            <div class="construction">
+                <p style="display:inline">Bad Week</p>
+                <a href="https://bo-gi.itch.io/bad-week">itch</a>
+                <a href="https://github.com/senseibobo/bad-week">github</a>
+            </div>
+            <div class="construction">
+                <p style="display:inline">Yu-Gi-Oh! Clone</p>
+                <a href="https://github.com/crknuchu/yugioh-clone">github</a>
+            </div>
+        </ul>
     </nav>
     <h2>My Band</h2>
     <div>
