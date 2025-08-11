@@ -14,11 +14,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            height: 100vh;
-            width: 100vw;
-            background: url('background.png') no-repeat center center/cover;
-            /* background-color: transparent; */
+            /* height: 100vh; */
+            /* width: 100vw; */
+            background-image: url('background.png');
+            background-size: cover;         /* Makes image cover the entire background */
+            background-repeat: no-repeat;   /* Prevents repeating */
+            background-position: center;    /* Centers the image */
+            min-height: 100vh;              /* Ensures full viewport height */
             color: #fff;
+            /* margin-bottom: 40px; */
         }
         header {
             margin-top: 20px;
@@ -109,6 +113,11 @@
     <nav>
         <ul>
             <div class="construction">
+                <p style="display:inline">Station 0</p>
+                <a href="https://crknuchu.itch.io/station-0">itch</a>
+                <a href="https://github.com/crknuchu/station-0">github</a>
+            </div>
+            <div class="construction">
                 <p style="display:inline">Lag Fighter</p>
                 <a href="https://crknuchu.itch.io/lag-fighter">itch</a>
                 <a href="https://github.com/crknuchu/lagfighter">github</a>
@@ -168,4 +177,5 @@
         <!-- <a href="https://mangadex.org/chapter/2035942e-333d-4d37-b274-d92be1d92c66">Mangadex</a> -->
     </div>
 </body>
+
 </html>
